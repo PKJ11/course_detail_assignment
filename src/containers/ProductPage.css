@@ -1,0 +1,40 @@
+/* ProductPage.css */
+
+@media (max-width: 767px) {
+    .ui.grid.container {
+      display: block;
+    }
+  
+    .ui.grid.container > .ui.grid.container {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .ui.grid.container > .ui.grid.container > .sixteen.wide.column {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    /* Add the following styles to make sure only one card appears in a row on small screens */
+    .ui.grid.container > .product-card {
+      width: 100%;
+    }
+  }
+  /* ProductDetails.css */
+
+/* ProductDetails.css */
+
+.ui.grid.container .ui.two.column.stackable.center.aligned.grid {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: aliceblue;
+  }
+  
+  @media (max-width: 800px) {
+    .ui.grid.container .ui.two.column.stackable.center.aligned.grid {
+      flex-direction: row;
+    }
+  }
+  
+  
